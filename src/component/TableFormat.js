@@ -17,7 +17,7 @@ const TableFormat = (props) => {
 
                     </tr>
                 </thead>
-                <tbody >
+                <tbody className='scrollabletbody'>
                     {props.members?.map((item, key) => {
                         return (
                             <tr key={item.sn}>
