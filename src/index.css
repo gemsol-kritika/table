@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.scrollabletbody{
+display:block;
+overflow:auto;
+height:180px;
+width:fit-content
+}
